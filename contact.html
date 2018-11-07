@@ -1,56 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-
+  
 <head>
-  <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Bootstrap-Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
-
-    </section>
-
+  <nav class="navbar navbar-inverse">  
+  <div class="container-fluid">
+  <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" id="logo">Nalinda Mavilmada</a>
   </div>
+     <ul class="nav navbar-nav navbar-right">
+     <li class="active"><a href="index.html">About</a></li>
+     <li class="active"><a href="portfolio.html">Portfolio</a></li>
+     <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-  <footer>
+<body>
     <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+        <h2>Contact</h2>
+        <form action="/action_page.php">
+          
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="name" placeholder="name" name="name">
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group" >
+                <label for="Message">Message:</label>
+                <input type="Message" class="form-control" id="message" placeholder="Enter Message" name="message" width=100px>
+              </div>
+         
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+        
+        </div>
 </body>
 
+
+
+<div class="footer-copyright bg-warning text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> </a>
+  </div>
 </html>
